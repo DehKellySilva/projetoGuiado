@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;    
+    padding-bottom: 30px;
+}
+
+.turma {
+    font-size: 20px;
+}
+
+.lista-menu {
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900 !important;
+}
+
+.descricao {
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.by {
+    background-color: rgb(183, 67, 200);
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.by2 {
+    margin-left: 220px;
+}
+
+.conteudo {
+    align-items: center;
+    margin-left: 600px;
+    flex: auto initial;
+    text-align: center;
+    font-size: 0px;
+}
+
+.foto {
+    flex: auto initial;
+    width: 190px;
+    height: 265px;
+    align-items: center;
+}
+
+.bio {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+    align-items: center center;
+    justify-content: space-evenly;
+}
+
+.caixa > div {
+    margin: 60px;
+    padding: 45px;
+    margin-left: 30px;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+}
+
+.rodape {
+    background-color: rgb(120, 118, 116);
+}
+
+.caixa2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.separar {
+    margin: 10px;
+}
+
+
+
+
